@@ -34,5 +34,4 @@ export default defineUserConfig({
     seoPlugin({
       hostname: 'https://port.bsdcn.org',
     }),
-  ],
 });

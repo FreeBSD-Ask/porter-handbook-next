@@ -28,4 +28,13 @@ export default defineUserConfig({
     lastUpdatedText: '上次更新',
     contributorsText: '贡献者',
   }),
+  
+   plugins: [
+     sitemapPlugin({
+       hostname: 'https://book.bsdcn.org',
+    }),
+    seoPlugin({
+       hostname: 'https://book.bsdcn.org',
+    }),
+  ],  
 });

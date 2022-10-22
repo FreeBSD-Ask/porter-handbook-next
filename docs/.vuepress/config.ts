@@ -31,10 +31,10 @@ export default defineUserConfig({
   
    plugins: [
      sitemapPlugin({
-       hostname: 'https://book.bsdcn.org',
+       hostname: 'https://port.bsdcn.org',
     }),
     seoPlugin({
-       hostname: 'https://book.bsdcn.org',
+       hostname: 'https://port.bsdcn.org',
     }),
   ],  
 });

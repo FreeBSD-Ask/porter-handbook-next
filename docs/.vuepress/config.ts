@@ -29,9 +29,9 @@ export default defineUserConfig({
     contributorsText: '贡献者',
   }),
     sitemapPlugin({
-      hostname: 'https://port.bsdcn.org',
+      hostname: 'https://port.bsdcn.org'
     }),
     seoPlugin({
-      hostname: 'https://port.bsdcn.org',
+      hostname: 'https://port.bsdcn.org'
     }),
 });

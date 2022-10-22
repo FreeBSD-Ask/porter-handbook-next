@@ -28,10 +28,4 @@ export default defineUserConfig({
     lastUpdatedText: '上次更新',
     contributorsText: '贡献者',
   }),
-    sitemapPlugin({
-      hostname: 'https://port.bsdcn.org'
-    }),
-    seoPlugin({
-      hostname: 'https://port.bsdcn.org'
-    }),
 });

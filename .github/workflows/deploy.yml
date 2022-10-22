@@ -1,0 +1,52 @@
+name: Build and Deploy Webpages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build and Deploy Webpages
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout from repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Cache nodejs dependencies
+        uses: actions/cache@v3
+        id: yarn-cache
+        with:
+          path: |
+            **/node_modules
+          key: ${{ runner.os }}-yarn-5-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-5-
+
+      - name: Install nodejs dependencies
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
+        run: yarn --frozen-lockfile
+        
+        
+      - name: Build VuePress site and Export PDF
+        run: yarn docs:build 
+        
+        
+      - name: Upload built webpages to our web server
+        uses: appleboy/scp-action@v0.1.3
+        with:
+          rm: "true" ## remove target folder before upload data
+          host: ${{ secrets.HOST }}
+          key: ${{ secrets.KEY }}
+          port: ${{ secrets.PORT }}
+          source: ${{ secrets.SOURCE }}
+          target: ${{ secrets.TARGET }}
+          username: ${{ secrets.USERNAME }}

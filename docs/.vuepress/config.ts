@@ -28,9 +28,13 @@ export default defineUserConfig({
     lastUpdatedText: '上次更新',
     contributorsText: '贡献者',
   }),
+ 
    plugins: [
      sitemapPlugin({
        hostname: 'porters-handbook.bsdcn.org',
+    }),
+     googleAnalyticsPlugin({
+       id: 'G-61VY1F7P28',
     }),
     seoPlugin({
        hostname: 'porters-handbook.bsdcn.org',

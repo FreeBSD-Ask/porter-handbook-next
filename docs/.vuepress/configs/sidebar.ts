@@ -344,7 +344,7 @@ export const sideBarConfig: SidebarConfig = [
 		'/di-18-zhang-freebsdversion-de-zhi/18.11.-freebsd-4.md',
 		'/di-18-zhang-freebsdversion-de-zhi/18.12.-freebsd-3.md',
 		'/di-18-zhang-freebsdversion-de-zhi/18.13.-freebsd-2.2.md',
-		'/di-18-zhang-freebsdversion-de-zhi/18.14.-freebsd-2-yi-qian-de-2.2release.md',
+		'/di-18-zhang-freebsdversion-de-zhi/18.14.freebsd-2.2release-zhi-qian-de-freebsd-2.md',
     ],
   },
 ];

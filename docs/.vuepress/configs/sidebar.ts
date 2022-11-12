@@ -221,7 +221,7 @@ export const sideBarConfig: SidebarConfig = [
 		'/di-16-zhang-bao-chi-tong-bu/16.2.-dai-ma-ku-de-web-fang-wen-jie-mian.md',
 		'/di-16-zhang-bao-chi-tong-bu/16.3.freebsd-ports-you-jian-lie-biao.md',
 		'/di-16-zhang-bao-chi-tong-bu/16.4.-freebsd-port-gou-jian-ji-qun.md',
-		'/di-16-zhang-bao-chi-tong-bu/16.5.freebsd-de-ports-distfile-sao-miao-qi.md',
+		'/di-16-zhang-bao-chi-tong-bu/16.5.portscoutfreebsd-ports-distfile-sao-miao-qi.md',
     ],
   },
   {

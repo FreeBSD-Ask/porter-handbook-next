@@ -218,11 +218,10 @@ export const sideBarConfig: SidebarConfig = [
     text: '第16章 保持同步',
     children: [
 		'/di-16-zhang-bao-chi-tong-bu/16.1.freshports.md',
-		'/di-16-zhang-bao-chi-tong-bu/14.2.-dai-ma-ku-de-web-fang-wen-jie-mian.md',
-		'/di-16-zhang-bao-chi-tong-bu/14.3.freebsd-ports-you-jian-lie-biao.md',
+		'/di-16-zhang-bao-chi-tong-bu/16.2.-dai-ma-ku-de-web-fang-wen-jie-mian.md',
+		'/di-16-zhang-bao-chi-tong-bu/16.3.freebsd-ports-you-jian-lie-biao.md',
 		'/di-16-zhang-bao-chi-tong-bu/16.4.-freebsd-port-gou-jian-ji-qun.md',
-		'/di-16-zhang-bao-chi-tong-bu/14.5.freebsd-de-ports-distfile-sao-miao-qi.md',
-		'/di-16-zhang-bao-chi-tong-bu/16.6.freebsd-de-port-jian-kong-xi-tong.md',
+		'/di-16-zhang-bao-chi-tong-bu/16.5.freebsd-de-ports-distfile-sao-miao-qi.md',
     ],
   },
   {

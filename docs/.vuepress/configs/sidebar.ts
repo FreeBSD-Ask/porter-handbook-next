@@ -137,7 +137,7 @@ export const sideBarConfig: SidebarConfig = [
     children: [
 		'/di-9-zhang-pkg/9.1.pkgmessage-an-zhuang-er-jin-zhi-bao-shi-xian-shi-de-xiao-xi-wen-jian.md',
 		'/di-9-zhang-pkg/9.2.-pkginstall-an-zhuang-er-jin-zhi-bao-shi-zhi-hang-de-jiao-ben-wen-jian.md',
-		'/di-9-zhang-pkg/8.3.pkgdeinstall-xie-zai-shi-zhi-hang-de-jiao-ben-wen-jian.md',
+		'/di-9-zhang-pkg/9.3.pkgdeinstall-xie-zai-shi-zhi-hang-de-jiao-ben-wen-jian.md',
 		'/di-9-zhang-pkg/9.4.-xiu-gai-pkg-wen-jian-de-ming-zi.md',
 		'/di-9-zhang-pkg/9.5.-shi-yong-subfiles-he-sublist.md',
     ],

@@ -250,7 +250,6 @@ export const sideBarConfig: SidebarConfig = [
 		'/di-17-zhang-shi-yong-uses-hong/17.21.-elfctl.md',
 		'/di-17-zhang-shi-yong-uses-hong/17.22.-fakeroot.md',
 		'/di-17-zhang-shi-yong-uses-hong/17.23.-fam.md',
-		'/di-17-zhang-shi-yong-uses-hong/17.23.-firebird.md',
 		'/di-17-zhang-shi-yong-uses-hong/17.24.-firebird.md',
 		'/di-17-zhang-shi-yong-uses-hong/17.25.-fonts.md',
 		'/di-17-zhang-shi-yong-uses-hong/17.26.-fortran.md',

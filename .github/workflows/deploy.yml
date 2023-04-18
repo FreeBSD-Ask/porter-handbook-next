@@ -27,16 +27,16 @@ jobs:
         with:
           path: |
             **/node_modules
-          key: ${{ runner.os }}-yarn-5-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-yarn-1-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.os }}-yarn-5-
+            ${{ runner.os }}-yarn-1-
 
       - name: Install nodejs dependencies
         if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
         
         
-      - name: Build VuePress site and Export PDF
+      - name: Build VuePress site
         run: yarn docs:build 
         
         

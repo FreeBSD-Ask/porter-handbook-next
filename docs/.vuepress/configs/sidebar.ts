@@ -109,7 +109,7 @@ export const sideBarConfig: SidebarConfig = [
 		'/di-6-zhang-te-shu-qing-kuang/6.28.-yi-lai-nei-he-yuan-dai-ma-de-port.md',
 		'/di-6-zhang-te-shu-qing-kuang/6.29.go-ku.md',
 		'/di-6-zhang-te-shu-qing-kuang/6.30.haskell-ku.md',
-		'/di-6-zhang-te-shu-qing-kuang/6.31.shell-zi-dong-wan-cheng-wen-jian.md',
+		'/di-6-zhang-te-shu-qing-kuang/6.31.shell-zi-dong-bu-quan-wen-jian.md',
     ],
   },
   {
